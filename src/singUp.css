@@ -1,0 +1,53 @@
+.Fbackground{
+   width: 100%;
+   background-color: #6a62d1;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.form-div{
+    height: 55%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.input-text{
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    border-radius: 5px;
+    border-color: rgb(207, 206, 206);
+}
+.sub-btn{
+    width: 80%;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #6a62d1;
+
+}
+.singup-text{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10%;
+
+}
+.logon-page{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    margin-top: 10px;
+}
+a{
+    padding-left: 5px;
+}
