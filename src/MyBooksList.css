@@ -1,0 +1,123 @@
+.backg{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-screen{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+/* .main-screen ::-webkit-scrollbar{
+    width: 0px;
+} */
+.main-screen ::-webkit-scrollbar{
+    /* display: none; */
+    width: 0px;
+}
+.book-cont{
+    width: 100%;
+    height: 170px;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: 10px; */
+}
+
+.book-img{
+    /* background-color: cornflowerblue; */
+    height: 70%;
+    width: 20%;
+}
+.book-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+
+}
+.bookInner-cont{
+    height: 70%;
+    width: 70%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+}
+.book-detail{
+    /* background-color: cornflowerblue; */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.title-cont{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.title-cont p{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+.info-cont{
+    /* background-color: orange; */
+    width: 100%;
+    height: 100px;
+    
+}
+.info-cont p{
+    font-size: 0.8rem;
+}
+.price-cont{
+    /* background-color: red; */
+    height: 110%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.price-cont p{
+    /* margin-top: 20px; */
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.price-cont input{
+    padding: 10px;
+    width: 70%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    background-color: #00bbff;
+    border-color: #d1d1d1;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+
+
+
+}
+.price-cont :hover{
+    cursor: pointer;
+}
+.line-cont{
+    width: 100%;
+    height: 3px;
+    background-color: #ababab;
+}
