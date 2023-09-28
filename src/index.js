@@ -5,6 +5,7 @@ import App from './App';
 import SingUp from './SingUp';
 import BookDetail from './bookDetail.js';
 import BooksLists from './MyBooksList';
+import AddBook from './AddNewBook';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ root.render(
         <Route path='/singUp' element={<SingUp />}></Route>
         <Route path='/booksList' element={<BooksLists />}></Route>
         <Route path='/bookDetail/:id' element={<BookDetail/>}></Route>
+        <Route path='/addNewBook' element={<AddBook/>}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
